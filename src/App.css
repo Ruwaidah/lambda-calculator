@@ -1,14 +1,28 @@
+
+img {
+    margin-left: 50px;
+    margin-top: 40px
+}
+
 .container {
-    background-color: #c00025;
+    background-color: #a81d36;
+    margin: 0 auto;
     width: 100%;
     max-width: 550px;
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow:  1px 10px 20px #322c2d;
+
 }
 .display {
+    margin: 0 auto;
+    align-self: center;
     margin-top: 25px;
-    height: 100px;
+    height: 120px;
     width: 450px;
     border-radius: 50px;
     color: white;
@@ -16,7 +30,70 @@
     box-shadow: 1px 1px #322c2d;
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
-    padding-right: 8%;
+    align-items: center;
+    padding-right: 4%;
     font-size: 5.0rem;
+    box-shadow:  1px 5px 10px #322c2d;
+
   }
+
+
+  .allthebtn {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.numspe {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    width: 65%;
+
+}
+
+  .btn {
+      width: 95px;
+      height: 95px;
+      border-radius: 50px;
+      margin: 10px;
+      font-size: 2.5rem;
+      border: none;
+      box-shadow:  1px 10px 20px #322c2d;
+      color: white;
+      outline: none;
+
+  }
+
+  .numbers {
+      text-align: center;
+    
+  }
+  .numbers button {
+    background:#184379;
+
+  }
+
+  .operators {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      }
+
+.operators button {
+    background:#237293;
+}
+
+
+  .specials button {
+      background: #225d9e;
+  }
+
+
+
+ .numbtn:nth-child(10) {
+    width:200px;
+ }
